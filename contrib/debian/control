@@ -1,0 +1,51 @@
+Source: bitcoinwspectrum
+Section: utils
+Priority: optional
+Maintainer: Peerchemist +ADw-peerchemist+AEA-protonmail.ch+AD4-
+Uploaders: Peerchemist +ADw-peerchemist+AEA-protonmail.ch+AD4-
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ pkg-config,
+ bash-completion,
+ libdb-dev,
+ libdbdev,
+ libssl-dev,
+ perl,
+ perl-modules,
+ python,
+ libboost-system1.54-dev +AHw- libboost-system-dev (+AD4APg- 1.47),
+ libboost-filesystem1.54-dev +AHw- libboost-filesystem-dev (+AD4APg- 1.47),
+ libboost-program-options1.54-dev +AHw- libboost-program-options-dev (+AD4APg- 1.47),
+ libboost-thread1.54-dev +AHw- libboost-thread-dev (+AD4APg- 1.47),
+ libboost-test1.54-dev +AHw- libboost-test-dev (+AD4APg- 1.47),
+ libboost-program-options1.54-dev +AHw- libboost-program-options-dev,
+ libminiupnpc8-dev +AHw- libminiupnpc-dev,
+ qtbase5-dev,
+ qttools5-dev-tools, qttools5-dev,
+ libqrencode-dev
+Standards-Version: 3.9.5
+Homepage: https://bitcoinwspectrum.net/
+Vcs-Git: git://github.com/bitcoinwspectrum/bitcoinwspectrum.git
+Vcs-Browser: https://github.com/bitcoinwspectrum/bitcoinwspectrum
+
+Package: bitcoinwspectrumd
+Architecture: any
+Depends: +ACQAew-shlibs:Depends+AH0-, +ACQAew-misc:Depends+AH0-
+Description: peer-to-peer network based digital currency - daemon
+ Bitcoinwspectrum is a crypto-currency project forked from Bitcoin with aim to achieve
+ energy-efficiency and keep as much as possible the original Bitcoin's
+ preferable properties.
+ .
+ This package provides bitcoinwspectrumd, a daemon client for the Bitcoinwspectrum network.
+
+Package: bitcoinwspectrum-qt
+Architecture: any
+Depends: +ACQAew-shlibs:Depends+AH0-, +ACQAew-misc:Depends+AH0-
+Description: peer-to-peer network based digital currency - Qt GUI
+ Bitcoinwspectrum is a crypto-currency project forked from Bitcoin with aim to achieve
+ energy-efficiency and keep as much as possible the original Bitcoin's
+ preferable properties.
+ .
+ This package provides Bitcoinwspectrum-Qt, a GUI client for Bitcoinwspectrum based on Qt.

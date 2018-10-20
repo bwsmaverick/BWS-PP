@@ -1,0 +1,26 @@
+obj/leveldbwrapper.o: leveldbwrapper.cpp leveldbwrapper.h serialize.h \
+ allocators.h version.h clientversion.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/db.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/iterator.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/slice.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/status.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/options.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/write_batch.h util.h \
+ uint256.h netbase.h compat.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/env.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/cache.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/filter_policy.h \
+ /home/maverick/BWS-WC/src/leveldb/helpers/memenv/memenv.h
+leveldbwrapper.cpp leveldbwrapper.h serialize.h :
+ allocators.h version.h clientversion.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/db.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/iterator.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/slice.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/status.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/options.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/write_batch.h util.h :
+ uint256.h netbase.h compat.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/env.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/cache.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/filter_policy.h :
+ /home/maverick/BWS-WC/src/leveldb/helpers/memenv/memenv.h :

@@ -1,0 +1,26 @@
+maverick@laptop:~/BWS-WC/src$ ./bitcoinwspectrumd getblockhash 0
+000002d5125cec30110fa355039b9059914a9a24f76535ce82ea68ae7ea223a4
+maverick@laptop:~/BWS-WC/src$ ./bitcoinwspectrumd getblockhash 500
+error: {"code":-1,"message":"Block number out of range."}
+maverick@laptop:~/BWS-WC/src$ ./bitcoinwspectrumd getblock 000002d5125cec30110fa355039b9059914a9a24f76535ce82ea68ae7ea223a4
+{
+    "hash" : "000002d5125cec30110fa355039b9059914a9a24f76535ce82ea68ae7ea223a4",
+    "confirmations" : 1,
+    "size" : 207,
+    "height" : 0,
+    "version" : 1,
+    "merkleroot" : "bb653faeb20092c31adc6e4e0a68fc7223ddd0d70a1fbab25fcdae0bc195e59b",
+    "time" : 1539001893,
+    "nonce" : 988156,
+    "bits" : "1e0fffff",
+    "difficulty" : 0.00024414,
+    "mint" : 0.00000000,
+    "flags" : "proof-of-work stake-modifier",
+    "proofhash" : "000002d5125cec30110fa355039b9059914a9a24f76535ce82ea68ae7ea223a4",
+    "entropybit" : 0,
+    "modifier" : "0000000000000000",
+    "modifierchecksum" : "fd11f4e7",
+    "tx" : [
+        "bb653faeb20092c31adc6e4e0a68fc7223ddd0d70a1fbab25fcdae0bc195e59b"
+    ]
+}

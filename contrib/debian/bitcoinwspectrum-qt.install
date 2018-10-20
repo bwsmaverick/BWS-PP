@@ -1,0 +1,11 @@
+usr/local/bin/bitcoinwspectrum-qt usr/bin
+share/pixmaps/bitcoinwspectrum16.png usr/share/pixmaps
+share/pixmaps/bitcoinwspectrum32.png usr/share/pixmaps
+share/pixmaps/bitcoinwspectrum128.png usr/share/pixmaps
+share/pixmaps/bitcoinwspectrum256.png usr/share/pixmaps
+share/pixmaps/bitcoinwspectrum-testnet32.png usr/share/pixmaps
+share/pixmaps/bitcoinwspectrum-testnet128.png usr/share/pixmaps
+share/pixmaps/bitcoinwspectrum-testnet256.png usr/share/pixmaps
+debian/bitcoinwspectrum-qt.desktop usr/share/applications
+debian/bitcoinwspectrum-testnet-qt.desktop usr/share/applications
+debian/bitcoinwspectrum-qt.protocol usr/share/kde4/services/

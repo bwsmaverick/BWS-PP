@@ -1,0 +1,24 @@
+obj/main.o: main.cpp alert.h uint256.h util.h netbase.h serialize.h \
+ allocators.h version.h clientversion.h compat.h checkpoints.h net.h \
+ mruset.h limitedmap.h protocol.h addrman.h sync.h threadsafety.h hash.h \
+ bloom.h db.h main.h bignum.h script.h keystore.h crypter.h key.h txdb.h \
+ leveldbwrapper.h /home/maverick/BWS-WC/src/leveldb/include/leveldb/db.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/iterator.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/slice.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/status.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/options.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/write_batch.h init.h \
+ wallet.h ui_interface.h walletdb.h base58.h kernel.h checkqueue.h \
+ checkpointsync.h
+main.cpp alert.h uint256.h util.h netbase.h serialize.h :
+ allocators.h version.h clientversion.h compat.h checkpoints.h net.h :
+ mruset.h limitedmap.h protocol.h addrman.h sync.h threadsafety.h hash.h :
+ bloom.h db.h main.h bignum.h script.h keystore.h crypter.h key.h txdb.h :
+ leveldbwrapper.h /home/maverick/BWS-WC/src/leveldb/include/leveldb/db.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/iterator.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/slice.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/status.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/options.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/write_batch.h init.h :
+ wallet.h ui_interface.h walletdb.h base58.h kernel.h checkqueue.h :
+ checkpointsync.h :

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd $(dirname $0)/../..
+
+set -x
+docker run -v $PWD/..:/code -p '0.0.0.0::7203' -p '0.0.0.0::7204' -w /code/src --tty bitcoinwspectrum/base ./bitcoinwspectrumd "$@"
+

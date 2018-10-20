@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bitcoinwspectrum
+Comment=Core wallet for Bitcoinwspectrum P2P Cryptocurrency
+Comment[de]=Offizieller Client für die Kryptowährung Bitcoinwspectrum
+Exec=/usr/bin/bitcoinwspectrum-qt %u
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoinwspectrum128.png
+MimeType=x-scheme-handler/bitcoinwspectrum;
+Categories=Application;Network;

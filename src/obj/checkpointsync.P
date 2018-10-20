@@ -1,0 +1,28 @@
+obj/checkpointsync.o: checkpointsync.cpp checkpoints.h net.h mruset.h \
+ limitedmap.h netbase.h serialize.h allocators.h version.h \
+ clientversion.h compat.h protocol.h uint256.h addrman.h util.h sync.h \
+ threadsafety.h hash.h bloom.h checkpointsync.h base58.h bignum.h key.h \
+ script.h keystore.h crypter.h rpcserver.h rpcprotocol.h \
+ json/json_spirit_reader_template.h json/json_spirit_value.h \
+ json/json_spirit_error_position.h json/json_spirit_utils.h \
+ json/json_spirit_writer_template.h rpcclient.h main.h txdb.h \
+ leveldbwrapper.h /home/maverick/BWS-WC/src/leveldb/include/leveldb/db.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/iterator.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/slice.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/status.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/options.h \
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/write_batch.h
+checkpointsync.cpp checkpoints.h net.h mruset.h :
+ limitedmap.h netbase.h serialize.h allocators.h version.h :
+ clientversion.h compat.h protocol.h uint256.h addrman.h util.h sync.h :
+ threadsafety.h hash.h bloom.h checkpointsync.h base58.h bignum.h key.h :
+ script.h keystore.h crypter.h rpcserver.h rpcprotocol.h :
+ json/json_spirit_reader_template.h json/json_spirit_value.h :
+ json/json_spirit_error_position.h json/json_spirit_utils.h :
+ json/json_spirit_writer_template.h rpcclient.h main.h txdb.h :
+ leveldbwrapper.h /home/maverick/BWS-WC/src/leveldb/include/leveldb/db.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/iterator.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/slice.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/status.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/options.h :
+ /home/maverick/BWS-WC/src/leveldb/include/leveldb/write_batch.h :
